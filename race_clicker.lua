@@ -11,7 +11,7 @@ local Tween = TweenService:Create(LocalPlayer.Character.HumanoidRootPart, TweenI
     CFrame = Track:GetChildren()[#Track:GetChildren()].Sign.CFrame - Vector3.yAxis * 20
 })
 
-local Library, Locale = loadstring(game:HttpGet("https://raw.githubusercontent.com/rbxluau/Roblox/main/Library.lua"))()
+local Library, Locale = loadstring(game:HttpGet("https://raw.githubusercontent.com/rbxluau/script-hub/main/library.lua"))()
 
 local function Play()
     if Library.flags.Race and Time.Visible then
