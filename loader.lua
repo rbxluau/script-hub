@@ -1,14 +1,14 @@
 local StarterGui = game:GetService("StarterGui")
 local BindableFunction = Instance.new("BindableFunction", script)
-local Source = game:HttpGet("https://raw.githubusercontent.com/rbxluau/Roblox/main/"..(({
-    [4777817887] = "BladeBall",
-    [2820580801] = "Ohio",
-    [111958650] = "Arsenal",
-    [2440500124] = "Doors",
-    [3476371299] = "RaceClicker",
-    [3085257211] = "RainbowFriends",
-    [73885730] = "PrisonLife"
-})[game.GameId] or "Universal")..".lua")
+local Source = game:HttpGet("https://raw.githubusercontent.com/rbxluau/script-hub/main/"..(({
+    [4777817887] = "blade_ball",
+    [2820580801] = "ohio",
+    [111958650] = "arsenal",
+    [2440500124] = "doors",
+    [3476371299] = "race_clicker",
+    [3085257211] = "rainbow_friends",
+    [73885730] = "prison_life"
+})[game.GameId] or "universal")..".lua")
 
 BindableFunction.OnInvoke = function(press)
     if press == "Yes" then
