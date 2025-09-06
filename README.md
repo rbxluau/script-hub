@@ -1,12 +1,12 @@
 # Star History
-[![Stargazers over time](https://starchart.cc/rbxluau/Roblox.svg?variant=adaptive)](https://starchart.cc/rbxluau/Roblox)
+[![Stargazers over time](https://starchart.cc/rbxluau/script-hub.svg?variant=adaptive)](https://starchart.cc/rbxluau/script-hub)
 # Contributors
 [@Verycuteabbey](https://github.com/Verycuteabbey)  
 [@f20i30s40h](https://github.com/f20i30s40h)
 # Example
-[![license](https://img.shields.io/github/license/rbxluau/Roblox)](https://github.com/rbxluau/Roblox/blob/main/LICENSE)
+[![license](https://img.shields.io/github/license/rbxluau/script-hub)](https://github.com/rbxluau/script-hub/blob/main/LICENSE)
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/rbxluau/Roblox/main/ScriptHub.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rbxluau/script-hub/main/loader.lua"))()
 ```
 * SupportedGames
     > Arsenal  
@@ -18,7 +18,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/rbxluau/Roblox/main/S
     RainbowFriends
 # Library
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/rbxluau/Roblox/main/Library.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/rbxluau/script-hub/main/library.lua"))()
 ```
 ## Window
 ```lua
